@@ -11,4 +11,4 @@ var server = http.createServer(function (request, response) {
 server.listen(8000);
 
 // Put a friendly message on the terminal
-console.log("Hello From Azure");
+console.log("Web Server run on http://127.0.0.1:8000");
