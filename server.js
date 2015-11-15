@@ -7,8 +7,8 @@ var server = http.createServer(function (request, response) {
   response.end("Hello IGTCloud\n");
 });
 
-// Listen on port 8000
-server.listen(8000);
+// Listen on port 1337
+server.listen(1337);
 
 // Put a friendly message on the terminal
-console.log("Web Server running on port 8000");
+console.log("Web Server running on port 1337");
